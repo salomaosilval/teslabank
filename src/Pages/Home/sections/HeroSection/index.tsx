@@ -30,8 +30,8 @@ export const HeroSection = () => {
               <Button>
                 Abrir uma conta <ArrowButton src={arrow} alt="Arrow Right" />
               </Button>
-              <AppStoreIcon src={apple} alt="" />
-              <PlayStoreIcon src={googleplay} alt="" />
+              <AppStoreIcon src={apple} alt="App Store" />
+              <PlayStoreIcon src={googleplay} alt="Google Play" />
             </ButtonContainer>
           </div>
         </WhiteContainer>

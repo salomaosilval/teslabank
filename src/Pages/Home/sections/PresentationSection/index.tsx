@@ -31,9 +31,9 @@ export const PresentationSection = () => {
         <PresentationContent>
           <SmartphoneContainer>
             <SmartphoneMockup src={smartphone} alt="Smartphone Mockup" />
-            <SmartphoneIconCheck src={check} alt="" />
-            <SmartphoneIconMousePointer src={mousePointer} alt="" />
-            <SmartphoneIconHeart src={heart} alt="" />
+            <SmartphoneIconCheck src={check} alt="Check icon" />
+            <SmartphoneIconMousePointer src={mousePointer} alt="Mouse icon" />
+            <SmartphoneIconHeart src={heart} alt="Heart icon" />
           </SmartphoneContainer>
           <BenefitsContainer>
             <PresentationTitle>
@@ -44,21 +44,21 @@ export const PresentationSection = () => {
               para todos os bancos sem pagar nada.
             </PresentationDescription>
             <Benefit>
-              <BenefitIcon src={dollarSign} alt="" />
+              <BenefitIcon src={dollarSign} alt="Dollar sign" />
               <div>
                 <BenefitTitle>Seu dinheiro rendendo mais</BenefitTitle>
                 <BenefitDesc>Rendem mais que a poupança e você resgata quando quiser</BenefitDesc>
               </div>
             </Benefit>
             <Benefit>
-              <BenefitIcon src={mobile} alt="" />
+              <BenefitIcon src={mobile} alt="Mobile icon" />
               <div>
                 <BenefitTitle>Conta digital 100% grátis</BenefitTitle>
                 <BenefitDesc>Transferências, boletos de depósito e outros serviços gratuitos</BenefitDesc>
               </div>
             </Benefit>
             <Benefit>
-              <BenefitIcon src={smile} alt="" />
+              <BenefitIcon src={smile} alt="Smile icon" />
               <div>
                 <BenefitTitle>Cartão sem anuidade</BenefitTitle>
                 <BenefitDesc>Conta digital com cartão de crédito sem anuidade e sem complicação</BenefitDesc>
