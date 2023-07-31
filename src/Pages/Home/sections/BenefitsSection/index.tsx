@@ -20,34 +20,34 @@ export const BenefitsSection = () => {
             benefitLink="Veja as opções"
           />
           <BenefitCard
-            imageURL="https://res.cloudinary.com/dv61ldehl/image/upload/v1690647251/credit-card_ajeb3q.svg"
-            benefitTitle="Cartão TeslaBank"
+            imageURL="https://res.cloudinary.com/dv61ldehl/image/upload/v1690647273/shopping-cart_zua7qq.svg"
+            benefitTitle="Investimentos"
+            benefitDesc={BENEFIT_DESC}
+            benefitLink="Conheça os investimentos"
+          />
+          <BenefitCard
+            imageURL="https://res.cloudinary.com/dv61ldehl/image/upload/v1690647268/clock_muumzh.svg"
+            benefitTitle="Atendimento 24h"
             benefitDesc={BENEFIT_DESC}
             benefitLink="Veja as opções"
           />
           <BenefitCard
-            imageURL="https://res.cloudinary.com/dv61ldehl/image/upload/v1690647251/credit-card_ajeb3q.svg"
-            benefitTitle="Cartão TeslaBank"
+            imageURL="https://res.cloudinary.com/dv61ldehl/image/upload/v1690647273/shield_xcsosp.svg"
+            benefitTitle="Segurança"
             benefitDesc={BENEFIT_DESC}
-            benefitLink="Veja as opções"
+            benefitLink="Conheça as seguranças"
           />
           <BenefitCard
-            imageURL="https://res.cloudinary.com/dv61ldehl/image/upload/v1690647251/credit-card_ajeb3q.svg"
-            benefitTitle="Cartão TeslaBank"
+            imageURL="https://res.cloudinary.com/dv61ldehl/image/upload/v1690647272/percent_p0abv4.svg"
+            benefitTitle="Sem taxas"
             benefitDesc={BENEFIT_DESC}
-            benefitLink="Veja as opções"
+            benefitLink="como funciona"
           />
           <BenefitCard
-            imageURL="https://res.cloudinary.com/dv61ldehl/image/upload/v1690647251/credit-card_ajeb3q.svg"
-            benefitTitle="Cartão TeslaBank"
+            imageURL="https://res.cloudinary.com/dv61ldehl/image/upload/v1690647270/gift_k2ybnu.svg"
+            benefitTitle="Receba prêmios"
             benefitDesc={BENEFIT_DESC}
-            benefitLink="Veja as opções"
-          />
-          <BenefitCard
-            imageURL="https://res.cloudinary.com/dv61ldehl/image/upload/v1690647251/credit-card_ajeb3q.svg"
-            benefitTitle="Cartão TeslaBank"
-            benefitDesc={BENEFIT_DESC}
-            benefitLink="Veja as opções"
+            benefitLink="Veja como"
           />
         </BenefitsCardsContainer>
       </BenefitsSectionContainer>
