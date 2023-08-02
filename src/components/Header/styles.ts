@@ -5,7 +5,7 @@ export const HeaderContainer = styled.div`
   justify-content: space-around;
   padding: 3.5rem;
   background-color: transparent;
-  width: calc(100% - 27px);
+  width: 100%;
   position: absolute;
   top: 0;
 `;
